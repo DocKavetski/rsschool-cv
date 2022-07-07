@@ -20,7 +20,7 @@
 
 ---
 
-## Skils
+## Skills
 - JS
 - HTML&CSS
 - Git
