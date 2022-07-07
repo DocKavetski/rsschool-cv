@@ -26,12 +26,15 @@ I am sociable, able to work in a team, patient and logical.*
 - Git
 - Figma
 - Photoshop
+
 ---
+
 ## Education
 - Belarusian State Medical University 
 - Rolling Scopes pre-school (stage 0)
 
 ---
+
 ## Languages
 - Russian - native speaker
 
