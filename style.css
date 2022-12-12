@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inika", serif;
+  font-weight: 500;
+  color: #b1aead;
+}
+
+*:hover {
+  transition: 0.2s;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
