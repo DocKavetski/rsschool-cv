@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Мой шаблон</title>
-    <meta name="description" content="Мой шаблон для верстки" />
+    <title>Anton Kavetski</title>
+    <meta name="description" content="Anton Kavetski Curriculum Vitae" />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -30,20 +30,26 @@
 
             <ul class="header__contacts">
               <li>
-                <h4>Email</h4>
-                <a href="">antoniokavec @gmail.com</a>
+                <h4 class="header__titile">Email</h4>
+                <a class="header__link" href="mailto:antoniokavec@gmail.com"
+                  >antoniokavec @gmail.com</a
+                >
               </li>
               <li>
-                <h4>Phone</h4>
-                <a href="">+1231231231</a>
+                <h4 class="header__titile">Phone</h4>
+                <a class="header__link" href="tel:+1231231231">+1231231231</a>
               </li>
               <li>
-                <h4>Telegram</h4>
-                <a href="">@Honoris</a>
+                <h4 class="header__titile">Telegram</h4>
+                <a class="header__link" href="https://t.me/Honoris">@Honoris</a>
               </li>
               <li>
-                <h4>Location</h4>
-                <a href="">Belarus, Mogilev</a>
+                <h4 class="header__titile">Location</h4>
+                <a
+                  class="header__link"
+                  href="https://goo.gl/maps/NvXsroVPmcQAMnx68"
+                  >Belarus, Mogilev</a
+                >
               </li>
             </ul>
           </div>
@@ -53,17 +59,11 @@
       <!-----------------------------  Main  ----------------------------->
 
       <main class="main">
-        <div class="container">
-          <div class="main-content">
-            <div class="main__left">
-              <div class="main__skills"></div>
-              <div class="main__contacts"></div>
-              <div class="main__lang"></div>
         <div class="main container">
-          <div class="main__left">
-            <div class="main__skills">
-              <h3>Skills</h3>
-              <ul>
+          <div class="main-left">
+            <div class="main-left__skills">
+              <h3 class="main-left__title">Skills</h3>
+              <ul class="main-left__content">
                 <li>CSS</li>
                 <li>HTML</li>
                 <li>JS</li>
@@ -71,28 +71,47 @@
                 <li>SASS</li>
               </ul>
             </div>
-            <div class="main__right">
-              <div class="main__about-me"></div>
-              <div class="main__education"></div>
-              <div class="main__projects"></div>
-            <div class="main__contacts">
-              <h3>Contacts</h3>
-              <ul>
+            <div class="main-left__contacts">
+              <h3 class="main-left__title">Contacts</h3>
+              <ul class="main-left__content">
                 <li><a href="">Instagram</a></li>
                 <li><a href="">Telegram</a></li>
                 <li><a href="">Email</a></li>
                 <li><a href="">Phone</a></li>
                 <li><a href="">GitHub</a></li>
-                <li><a href=""></a></li>
                 <li><a href="">Email</a></li>
               </ul>
             </div>
-            <div class="main__lang"></div>
+            <div class="main-left__lang">
+              <h3 class="main-left__title">Languages</h3>
+              <ul class="main-left__content">
+                <li>English (B1)</li>
+                <li>Russian (native)</li>
+                <li>Belarusian (native)</li>
+              </ul>
+            </div>
           </div>
-          <div class="main__right">
-            <div class="main__about-me">апрапрапр</div>
-            <div class="main__education"></div>
-            <div class="main__projects"></div>
+          <div class="main-right">
+            <div class="main-right__about-me">
+              <h3 class="main-right__title">About Me</h3>
+
+              <p class="main-right__paragraph">My name is Anton.</p>
+
+              <p class="main-right__paragraph">
+                I have been working as a psychotherapist for a long time, but I
+                want to change something in my life.
+              </p>
+
+              I thought for a long time about what exactly, and decided that the
+              IT field is exactly what I need. I am sociable, able to work in a
+              team, patient and logical.
+              <p class="main-right__paragraph">
+                I do not give up before difficulties, even if it is necessary to
+                turn the ship of my life 180 degrees, I will do it.
+              </p>
+            </div>
+            <div class="main-right__education"></div>
+            <div class="main-right__projects"></div>
           </div>
         </div>
       </main>
