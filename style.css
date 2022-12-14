@@ -64,7 +64,7 @@ a {
 .header__contain {
   display: flex;
   position: relative;
-  width: 50%;
+  width: 70%;
   height: 100%;
 }
 .header__text {
@@ -87,38 +87,75 @@ a {
   padding: 0;
 }
 .header__contacts li {
+  display: inline-block;
   text-align: center;
+  vertical-align: middle;
   max-width: 100px;
   position: relative;
 }
 .header__contacts h4 {
-  display: inline-block;
-}
-.header__contacts h4 {
   border-bottom: 1px solid yellow;
   padding: 0 10px 5px 10px;
-}
-.header__contacts h4:hover {
-  transition: border-bottom 1s ease;
+  margin: 0 0 10px 0;
 }
 .header__contacts a:hover {
   color: yellow;
 }
 
-@-webkit-keyframes width {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
+.main {
+  display: flex;
 }
 
-@keyframes width {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
+.main-left {
+  width: 30%;
+  padding-right: 20px;
+  display: flex;
+  height: 100%;
+  align-items: end;
+  flex-direction: column;
+}
+.main-left__skills {
+  padding-right: 0px;
+}
+.main-left__title {
+  color: yellow;
+}
+.main-left__contacts {
+  padding-right: 50px;
+}
+.main-left__lang {
+  padding-right: 100px;
+}
+
+.main-left__skills,
+.main-left__contacts,
+.main-left__lang {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-left li:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.main-left ul {
+  margin-top: 0;
+}
+
+.main-right {
+  width: 70%;
+  border-top: 1px dashed yellow;
+  border-left: 1px dashed yellow;
+  padding-left: 15px;
+}
+.main-right__title {
+  font-family: "Storytella", sans-serif;
+  color: yellow;
+  text-align: right;
+  font-size: 1.875rem;
+}
+.main-right__paragraph--yellow {
+  color: yellow;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
