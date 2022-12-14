@@ -24,7 +24,7 @@
 }
 
 .container {
-  max-width: 1310px;
+  max-width: 1054px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -50,7 +50,7 @@ a {
 }
 .header__img {
   display: flex;
-  width: 30%;
+  width: 20%;
   height: 100%;
   align-items: center;
   justify-content: end;
@@ -64,7 +64,7 @@ a {
 .header__contain {
   display: flex;
   position: relative;
-  width: 70%;
+  width: 80%;
   height: 100%;
 }
 .header__text {
@@ -102,35 +102,40 @@ a {
   color: yellow;
 }
 
+.header__speciality::before {
+  content: "";
+  height: 2px;
+  background-color: yellow;
+  position: absolute;
+  width: 80px;
+  top: 30px;
+  left: 150px;
+}
+
+.header__speciality {
+  position: relative;
+}
+
 .main {
   display: flex;
 }
 
 .main-left {
-  width: 30%;
+  width: 20%;
   padding-right: 20px;
   display: flex;
   height: 100%;
-  align-items: end;
+  align-items: center;
   flex-direction: column;
-}
-.main-left__skills {
-  padding-right: 0px;
 }
 .main-left__title {
   color: yellow;
+  margin-top: 30px;
 }
-.main-left__contacts {
-  padding-right: 50px;
-}
-.main-left__lang {
-  padding-right: 100px;
-}
-
 .main-left__skills,
 .main-left__contacts,
 .main-left__lang {
-  max-width: 500px;
+  max-width: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -144,18 +149,39 @@ a {
 }
 
 .main-right {
-  width: 70%;
+  width: 80%;
+  max-width: 1000px;
   border-top: 1px dashed yellow;
-  border-left: 1px dashed yellow;
   padding-left: 15px;
 }
 .main-right__title {
   font-family: "Storytella", sans-serif;
   color: yellow;
-  text-align: right;
+  text-align: center;
   font-size: 1.875rem;
+  font-weight: 300;
 }
 .main-right__paragraph--yellow {
   color: yellow;
   opacity: 0.5;
+}
+.main-right__code-example {
+  font-family: monospace, monospace;
+  color: white;
+  background-color: #2a2a2a;
+}
+.main-right__code-example span {
+  font-family: monospace, monospace;
+}
+.main-right__code-example--yellow {
+  color: yellow;
+}
+.main-right__code-example--pink {
+  color: pink;
+}
+.main-right__code-example--blue {
+  color: #36f9f6;
+}
+.main-right__code-example--orange {
+  color: orange;
 }/*# sourceMappingURL=style.css.map */
