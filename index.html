@@ -35,10 +35,7 @@
                   >antoniokavec @gmail.com</a
                 >
               </li>
-              <li>
-                <h4 class="header__titile">Phone</h4>
-                <a class="header__link" href="tel:+1231231231">+1231231231</a>
-              </li>
+
               <li>
                 <h4 class="header__titile">Telegram</h4>
                 <a class="header__link" href="https://t.me/Honoris">@Honoris</a>
@@ -76,11 +73,14 @@
             <div class="main-left__contacts">
               <h3 class="main-left__title">Contacts</h3>
               <ul class="main-left__content">
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Telegram</a></li>
-                <li><a href="">Email</a></li>
-                <li><a href="">Phone</a></li>
-                <li><a href="">GitHub</a></li>
+                <li>
+                  <a href="https://www.instagram.com/kamisvari/"> Instagram</a>
+                </li>
+                <li><a href="https://t.me/Honoris">Telegram</a></li>
+
+                <li>
+                  <a href="https://www.whatsapp.com/?lang=ru">WhatsApp</a>
+                </li>
               </ul>
             </div>
             <div class="main-left__lang">
@@ -103,9 +103,11 @@
                 want to change something in my life.
               </p>
 
-              I thought for a long time about what exactly, and decided that the
-              IT field is exactly what I need. I am sociable, able to work in a
-              team, patient and logical.
+              <p class="main-right__paragraph">
+                I thought for a long time about what exactly, and decided that
+                the IT field is exactly what I need. I am sociable, able to work
+                in a team, patient and logical.
+              </p>
               <p class="main-right__paragraph">
                 I do not give up before difficulties, even if it is necessary to
                 turn the ship of my life 180 degrees, I will do it.
@@ -144,23 +146,49 @@
               <h3 class="main-right__title">Code example</h3>
 
               <code class="main-right__code-example">
-                
-                <span class="main-right__code-example--yellow">var</span><span class="main-right__code-example--pink"> gulp</span> =
-                <span class="main-right__code-example--blue" >require</span><span class="main-right__code-example--orange">("gulp")</span>; <br />
-                <span class="main-right__code-example--yellow">var</span> <span class="main-right__code-example--pink">server</span>
-                = <span class="main-right__code-example--blue">require</span><span class="main-right__code-example--orange">("gulp-server-livereload")</span>; <br /><br />
-                <span class="main-right__code-example--pink">gulp</span>.<span class="main-right__code-example--blue">task</span>(<span class="main-right__code-example--orange">"default"</span>, <span class="main-right__code-example--yellow">function</span> { <br />
-                &nbsp<span class="main-right__code-example--pink">gulp</span>.<span class="main-right__code-example--blue">src</span class="main-right__code-example--blue">(<span class="main-right__code-example--orange">"."</span>).<span class="main-right__code-example--blue">pipe</span>( <br />
-                &nbsp&nbsp<span class="main-right__code-example--blue">server</span >({ <br />
-                &nbsp&nbsp&nbsp&nbsp<span class="main-right__code-example--blue">livereload</span>: <span class="main-right__code-example--orange">true</span>, <br />
-                &nbsp&nbsp&nbsp&nbsp<span class="main-right__code-example--blue">defaultFile</span>: <span class="main-right__code-example--orange">"index.html"</span>, <br />
-                &nbsp&nbsp&nbsp&nbsp<span class="main-right__code-example--blue">directoryListing</span>: <span class="main-right__code-example--orange">false</span>, <br />
-                &nbsp&nbsp&nbsp&nbsp<span class="main-right__code-example--blue">open</span>: <span class="main-right__code-example--orange">true</span>, <br />
-               &nbsp&nbsp }) <br />
+                <span class="main-right__code-example--yellow">var</span
+                ><span class="main-right__code-example--pink"> gulp</span> =
+                <span class="main-right__code-example--blue">require</span
+                ><span class="main-right__code-example--orange">("gulp")</span>;
+                <br />
+                <span class="main-right__code-example--yellow">var</span>
+                <span class="main-right__code-example--pink">server</span> =
+                <span class="main-right__code-example--blue">require</span
+                ><span class="main-right__code-example--orange"
+                  >("gulp-server-livereload")</span
+                >; <br /><br />
+
+                &nbsp<span class="main-right__code-example--pink">gulp</span
+                >.<span class="main-right__code-example--blue">src</span>(<span
+                  class="main-right__code-example--orange"
+                  >"."</span
+                >).<span class="main-right__code-example--blue">pipe</span>(
+                <br />
+                &nbsp&nbsp<span class="main-right__code-example--blue"
+                  >server</span
+                >({ <br />
+                &nbsp&nbsp&nbsp&nbsp<span class="main-right__code-example--blue"
+                  >livereload</span
+                >: <span class="main-right__code-example--orange">true</span>,
+                <br />
+                &nbsp&nbsp&nbsp&nbsp<span class="main-right__code-example--blue"
+                  >defaultFile</span
+                >:
+                <span class="main-right__code-example--orange"
+                  >"index.html"</span
+                >, <br />
+                &nbsp&nbsp&nbsp&nbsp<span class="main-right__code-example--blue"
+                  >directoryListing</span
+                >: <span class="main-right__code-example--orange">false</span>,
+                <br />
+                &nbsp&nbsp&nbsp&nbsp<span class="main-right__code-example--blue"
+                  >open</span
+                >: <span class="main-right__code-example--orange">true</span>,
+                <br />
+                &nbsp&nbsp }) <br />
                 &nbsp&nbsp); <br />
                 });
               </code>
-        
             </div>
           </div>
         </div>
@@ -168,8 +196,22 @@
 
       <!-----------------------------  Footer  ----------------------------->
       <footer class="footer">
-        <div class="container"></div>
-        <div class="footer-content"></div>
+        <div class="footer-content container">
+          <div class="footer-content__git">
+            <a href=""
+              ><img src="src/icons/social/github-mark-white.svg" alt=""
+            /></a>
+          </div>
+          <div class="footer-content__year">
+            <h2>2022</h2>
+          </div>
+
+          <div class="footer-content__school">
+            <a><img src="/src/icons/rs_school_js.svg" alt="" /></a>
+          </div>
+
+          
+        </div>
       </footer>
     </div>
     <script src="app.js"></script>
