@@ -134,6 +134,7 @@ a {
 .header__nav {
   height: 50px;
   width: 100%;
+  padding-top: 20px;
 }
 
 .header__nav ul {
@@ -249,6 +250,10 @@ a {
   width: 30px;
 }
 
+.footer {
+  max-height: 50px;
+}
+
 .footer-content {
   border-top: 1px dashed yellow;
   display: flex;
@@ -257,10 +262,10 @@ a {
   padding: 15px;
 }
 .footer-content__school img {
-  max-width: 150px;
+  max-width: 100px;
   width: 100%;
 }
 .footer-content__git img {
-  max-width: 80px;
+  max-width: 60px;
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
