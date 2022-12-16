@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Anton Kavetski</title>
+    <meta name="description" content="Anton Kavetski Curriculum Vitae" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__content container">
+          <div class="header__img">
+            <img src="src/img/MG68531.jpg" alt="photo" />
+          </div>
+
+          <div class="header__contain">
+            <nav class="header__nav">
+              <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#lang">Languages</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#code">Code example</a></li>
+              </ul>
+            </nav>
+            <div class="header__text">
+              <h1 class="header__name">
+                <span class="header__name header__name--accent"> Kavetski</span>
+                Anton
+              </h1>
+              <h2 class="header__speciality">Frontend developer</h2>
+            </div>
+
+            <ul class="header__contacts">
+              <li>
+                <h4 class="header__titile">Email</h4>
+                <a class="header__link" href="mailto:antoniokavec@gmail.com"
+                  >antoniokavec @gmail.com</a
+                >
+              </li>
+
+              <li>
+                <h4 class="header__titile">Telegram</h4>
+                <a class="header__link" href="https://t.me/Honoris">@Honoris</a>
+              </li>
+              <li>
+                <h4 class="header__titile">Location</h4>
+                <a
+                  class="header__link"
+                  href="https://goo.gl/maps/NvXsroVPmcQAMnx68"
+                  >Belarus, Mogilev</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main container">
+          <div class="main-left">
+            <div class="main-left__skills" id="skills">
+              <h2 class="main-left__title">Skills</h2>
+              <ul class="main-left__content">
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JS</li>
+                <li>Gulp</li>
+                <li>SASS</li>
+                <li>Figma</li>
+                <li>Photoshop</li>
+              </ul>
+            </div>
+            <div class="main-left__contacts" id="contacts">
+              <h3 class="main-left__title">Contacts</h3>
+              <ul class="main-left__content">
+                <li>
+                  <a href="https://www.instagram.com/kamisvari/"> Instagram</a>
+                </li>
+                <li><a href="https://t.me/Honoris">Telegram</a></li>
+
+                <li>
+                  <a href="https://www.whatsapp.com/?lang=ru">WhatsApp</a>
+                </li>
+              </ul>
+            </div>
+            <div class="main-left__lang" id="lang">
+              <h3 class="main-left__title">Languages</h3>
+              <ul class="main-left__content">
+                <li>English (B1)</li>
+                <li>Russian (native)</li>
+                <li>Belarusian (native)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="main-right">
+            <div class="main-right__about-me" id="about-me">
+              <h3 class="main-right__title">About Me</h3>
+
+              <p class="main-right__paragraph">My name is Anton.</p>
+
+              <p class="main-right__paragraph">
+                I have been working as a psychotherapist for a long time, but I
+                want to change something in my life.
+              </p>
+
+              <p class="main-right__paragraph">
+                I thought for a long time about what exactly, and decided that
+                the IT field is exactly what I need. I am sociable, able to work
+                in a team, patient and logical.
+              </p>
+              <p class="main-right__paragraph">
+                I do not give up before difficulties, even if it is necessary to
+                turn the ship of my life 180 degrees, I will do it.
+              </p>
+            </div>
+            <div class="main-right__education" id="education">
+              <h3 class="main-right__title">Education</h3>
+
+              <p class="main-right__paragraph">
+                Belarusian State Medical University
+              </p>
+              <p class="main-right__paragraph">
+                Rolling Scopes pre-school (stage 0)
+              </p>
+            </div>
+            <div class="main-right__projects" id="projects">
+              <h3 class="main-right__title">Projects</h3>
+
+              <p class="main-right__paragraph">
+                <span
+                  class="main-right__paragraph--yellow main-right__paragraph"
+                  >current</span
+                >
+                CV for RSShcool (design, layout, content)
+              </p>
+              <p class="main-right__paragraph">
+                <span
+                  class="main-right__paragraph--yellow main-right__paragraph"
+                  >current</span
+                >
+                My personal project for a psychotherapeutic office (layout,
+                design, functionality, working with databases)
+              </p>
+            </div>
+            <div class="main-right__code" id="code">
+              <h3 class="main-right__title">Code example</h3>
+              <pre><code class="main-right__code-example"><span class="main-right__code-example--yellow">var</span
+><span class="main-right__code-example--pink"> gulp</span>=<span class="main-right__code-example--blue">require</span
+><span class="main-right__code-example--orange">("gulp")</span>;
+<span class="main-right__code-example--yellow">var</span>
+<span class="main-right__code-example--pink">server</span> = <span class="main-right__code-example--blue">require</span
+><span class="main-right__code-example--orange"
+>("gulp-server-livereload")</span
+>; 
+  <span class="main-right__code-example--pink">gulp</span>.<span
+class="main-right__code-example--blue">src</span>(<span class="main-right__code-example--orange">"."</span>).<span class="main-right__code-example--blue">pipe</span>(<br />  <span class="main-right__code-example--blue">server</span>({<br />   <span class="main-right__code-example--blue">livereload</span>:<span class="main-right__code-example--orange">true</span>,<br />   <span class="main-right__code-example--blue">defaultFile</span>:<span class="main-right__code-example--orange"  >"index.html"</span>, <br />   <span class="main-right__code-example--blue"  >directoryListing</span>: <span class="main-right__code-example--orange">false</span>,<br />  <span class="main-right__code-example--blue">open</span>:<span class="main-right__code-example--orange">true</span>,<br />  }) <br /> ); <br />});
+                </code>
+</pre>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-content container">
+          <div class="footer-content__git">
+            <a href="https://github.com/DocKavetski"
+              ><img src="src/icons/social/github-mark-white.svg" alt=""
+            /></a>
+          </div>
+          <div class="footer-content__year">
+            <h2>2022</h2>
+          </div>
+
+          <div class="footer-content__school">
+            <a href="https://rs.school/js/"
+              ><img src="src/icons/rs_school_js.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+
+</html>
