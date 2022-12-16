@@ -18,6 +18,10 @@
   transition: 0.2s;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #2a2a2a;
 }
@@ -71,6 +75,8 @@ a {
   width: 80%;
   height: 100%;
   padding-left: 15px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .header__text {
   width: 100%;
@@ -87,7 +93,6 @@ a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  position: absolute;
   bottom: 0;
   padding: 0;
 }
@@ -126,6 +131,28 @@ a {
   position: relative;
 }
 
+.header__nav {
+  height: 50px;
+  width: 100%;
+}
+
+.header__nav ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.header__nav a:hover {
+  color: yellow;
+}
+
+.header__nav li {
+  text-align: center;
+}
+
 .main {
   display: flex;
 }
@@ -144,9 +171,6 @@ a {
 }
 .main-left__content li {
   padding-top: 10px;
-}
-.main-left__contacts {
-  position: relative;
 }
 .main-left__skills,
 .main-left__contacts,
@@ -206,15 +230,31 @@ a {
   color: orange;
 }
 
+.main-left li {
+  position: relative;
+}
+
+.main-left__content li::before {
+  content: "";
+  width: 0;
+  background-color: yellow;
+  height: 10px;
+  top: 13px;
+  left: -40px;
+  position: absolute;
+  transition: 1s width ease-in-out;
+}
+
+.main-left__content li:hover::before {
+  width: 30px;
+}
+
 .footer-content {
   border-top: 1px dashed yellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-}
-.footer-content__year h2 {
-  color: white;
 }
 .footer-content__school img {
   max-width: 150px;
